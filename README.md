@@ -77,12 +77,12 @@
   
   Report will be generated for the dmoney API inside Reports folder.
 
-## Load Test of booking API Request Summary:
+## Load Test Request Summary of booking API:
  
 ![Screenshot (20)](https://github.com/user-attachments/assets/fc107a9d-15ca-471d-847f-07232e1c67ef)
 
 
-## Stress Test of booking API Request Summary:
+## Stress Test Request Summary of booking API:
 
 ![Screenshot (40)](https://github.com/user-attachments/assets/9ea70397-6338-4526-967d-cab340b06fa5)
 
@@ -91,7 +91,7 @@
 
 [booking-api-test-report.xlsx](https://github.com/user-attachments/files/19247759/booking-api-test-report.xlsx) 
 
-## dmoney Api Request Summary
+## dmoney Api Request Summary:
 
 ![Screenshot (41)](https://github.com/user-attachments/assets/a88120c1-6924-4beb-b9d8-ad3d9f631347)
 
