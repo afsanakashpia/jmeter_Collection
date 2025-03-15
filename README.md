@@ -1,6 +1,6 @@
 # JMeter Performance Testing and Transaction Automation
 
-## This repository contains two JMeter collections. One is booking.jmx that is designed to perform load test(Simulates 120,000 users logging in, creating a booking, and searching for it over a 12-hour period), Stress Test (Identifies bottleneck point by gradually increasing the number of users performing booking creation.), and performance test.Load Test . Another collections is dmoney.jmx which simulates various transactions(Deposit,SendMoney and Payment) for two different APIs.
+## This repository contains two JMeter collections. One is booking.jmx that is designed to perform load test(Simulates 120,000 users logging in, creating a booking, and searching for it over a 12-hour period), Stress Test (Identifies bottleneck point by gradually increasing the number of users performing booking creation) and performance test. Another collections is dmoney.jmx which simulates various transactions(Deposit,SendMoney and Payment) for two different APIs.
 
 ## Technology I used:
 - JDK LTS (version-17)
@@ -34,7 +34,7 @@
   - Search Booking Request Configuration:
        - URL: ```https://restful-booker.herokuapp.com```
            - Method: GET
-           - Path: /booking/${extracted id}
+           - Path: /booking/${access_id}
    - Performance Testing Configuration:
         - Gaussian Random Timer
             - Deviation: 2000ms
@@ -61,6 +61,11 @@
   - Set a 120-second ramp-up time for each thread to simulate gradual load.
 
  - Assertions: Add assertions to verify the success of each transaction.
+
+## How to Run:   
+ - Add Listeners(e.g. View Result Tree, Summary Report, View Aggregate Report) to each threads.
+ - Run the the thread.
+
 ##  How to generate HTML Report:
 - Clone this Project
 
